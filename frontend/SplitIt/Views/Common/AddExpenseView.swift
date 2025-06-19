@@ -40,13 +40,13 @@ struct AddExpenseView: View {
         Friend(id: UUID(), name: "Nina"),
         Friend(id: UUID(), name: "Sam"),
         Friend(id: UUID(), name: "Alex"),
-        Friend(id: UUID(), name: "Teju")
+        Friend(id: UUID(), name: "Rohith")
     ]
     
     let groupMembers: [String: [Friend]] = [
         "Road Trip": [Friend(id: UUID(), name: "Ian"), Friend(id: UUID(), name: "Nina"), Friend(id: UUID(), name: "You")],
         "Office Lunch": [Friend(id: UUID(), name: "Sam"), Friend(id: UUID(), name: "Alex"), Friend(id: UUID(), name: "You")],
-        "Movie Night": [Friend(id: UUID(), name: "Teju"), Friend(id: UUID(), name: "Ian"), Friend(id: UUID(), name: "You")]
+        "Movie Night": [Friend(id: UUID(), name: "Rohith"), Friend(id: UUID(), name: "Ian"), Friend(id: UUID(), name: "You")]
     ]
     
     var currentGroupMembers: [Friend] {

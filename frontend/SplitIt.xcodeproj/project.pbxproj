@@ -29,9 +29,23 @@
 		5842C0932E04594B007137BF /* SplitItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5842C0B92E045A3D007137BF /* Exceptions for "SplitIt" folder in "SplitIt" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				.gitignore,
+				ReadMe.md,
+			);
+			target = 5842C0782E045949007137BF /* SplitIt */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		5842C07B2E045949007137BF /* SplitIt */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5842C0B92E045A3D007137BF /* Exceptions for "SplitIt" folder in "SplitIt" target */,
+			);
 			path = SplitIt;
 			sourceTree = "<group>";
 		};
