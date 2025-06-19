@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Xcode
+build/
+DerivedData/
+*.xcworkspace
+*.xcuserstate
+*.xcuserdata
+
+# SwiftPM
+/.build/
+/Packages/
+
+# CocoaPods
+Pods/
