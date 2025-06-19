@@ -5,7 +5,7 @@ import SwiftUI
 struct SplitItApp: App {
     var body: some Scene {
         WindowGroup {
-            LoginView()
+            MainTabView()
         }
     }
 }
